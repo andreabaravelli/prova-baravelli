@@ -24,5 +24,19 @@ namespace prova_Baravelli
         {
             InitializeComponent();
         }
+
+        private void aggiungiLibro_Click(object sender, RoutedEventArgs e)
+        {
+            
+            
+            
+            Libro libro = new libro(autore.Text,editore.Text,anno_.Text,titolo.Text,npagine.Text);
+
+            elencoLibri.Items.Clear();
+
+            elencoLibri.Items.Add(libro);
+
+
+        }
     }
 }

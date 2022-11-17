@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button x:Name="aggiungiLibro" Content="aggiungi libro" HorizontalAlignment="Left" Margin="93,59,0,0" VerticalAlignment="Top" Click="aggiungiLibro_Click"/>
+        <ListBox x:Name="elencoLibri" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,130,560,0"/>
+        <TextBox x:Name="titolo" HorizontalAlignment="Left" Margin="327,59,0,0" TextWrapping="Wrap" Text="titolo" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="autore" HorizontalAlignment="Left" Margin="400,130,0,0" TextWrapping="Wrap" Text="autore" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="editore" HorizontalAlignment="Left" Margin="400,199,0,0" TextWrapping="Wrap" Text="editore" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="npagine" HorizontalAlignment="Left" Margin="506,69,0,0" TextWrapping="Wrap" Text="pagine" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="anno_" HorizontalAlignment="Left" Margin="583,139,0,0" TextWrapping="Wrap" Text="anno" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
