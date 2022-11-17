@@ -38,6 +38,13 @@ namespace prova_Baravelli
 
 
         }
-        
+
+        private void tempolettura_Click(object sender, RoutedEventArgs e)
+        {
+
+            int tempoLettura = tempoLettura.toString();
+
+
+        }
     }
 }
