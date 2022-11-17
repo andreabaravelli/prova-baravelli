@@ -43,6 +43,7 @@ namespace prova_Baravelli
         {
 
             int tempoLettura = tempoLettura.toString();
+// questo è il commento
 
 
         }
