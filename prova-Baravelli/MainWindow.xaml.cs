@@ -30,8 +30,8 @@ namespace prova_Baravelli
             
             
             
-            Libro libro = new libro(autore.Text,editore.Text,anno_.Text,titolo.Text,npagine.Text);
-
+            Libro libro = new Libro(autore.Text,editore.Text,anno_.Text,titolo.Text,npagine.Text);
+            elencoLibri.Add(libro);
             elencoLibri.Items.Clear();
 
             elencoLibri.Items.Add(libro);
