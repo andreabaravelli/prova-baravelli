@@ -31,13 +31,13 @@ namespace prova_Baravelli
             
             
             Libro libro = new Libro(autore.Text,editore.Text,anno_.Text,titolo.Text,npagine.Text);
-            elencoLibri.Add(libro);
+            elencoLibriBiblio.Add(libro);
             elencoLibri.Items.Clear();
 
             elencoLibri.Items.Add(libro);
 
 
         }
-        //dfadhlahfda
+        
     }
 }
